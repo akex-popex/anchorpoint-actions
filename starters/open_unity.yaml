@@ -12,6 +12,8 @@ action:
   enable: true
   author: akex_popex
   description: Opens the Unity project using the Unity CLI.
+  icon:
+    path: ":/icons/organizations-and-products/unityEngine.svg"
   script: open_unity.py
 
   register:
