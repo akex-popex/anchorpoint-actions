@@ -1,0 +1,19 @@
+# Anchorpoint Markup Language
+# Predefined Variables: e.g. ${path}
+# Environment Variables: e.g. ${MY_VARIABLE}
+# Full documentation: https://docs.anchorpoint.app/api/intro
+
+version: 1.0
+action:
+  name: Open Unity
+
+  id: ap::start::unity
+  type: python
+  enable: true
+  author: akex_popex
+  description: Opens the Unity project using the Unity CLI.
+  script: open_unity.py
+
+  register:
+    sidebar:
+      enable: true
